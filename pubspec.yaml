@@ -1,0 +1,17 @@
+name: comic_app_extensions
+description: Extension for my comic app
+version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: ">=2.18.7 <3.0.0"
+
+dependencies:
+  comic_app_core:
+    git:
+      publish_to: none
+      url: https://github.com/teguhkurnia/comic_app_core.git
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
